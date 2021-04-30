@@ -48,15 +48,6 @@ quizForm.addEventListener("submit", (event) => {
     pointSum.innerText = "Wynik:";
   });
 
-  //checkButton.addEventListener("click", () => {
-   // let showText = "Pokaz odpowiedzi";
-   // let hideText = "Ukryj odpowiedzi";
-   // checkButton.innerText =
-   //   checkButton.innerText === showText ? hideText : showText;
-   //   for (let i = 0; i < 10; i++) {
-   //   correctAnswers[i].classList.toggle("form__goodAnswer");
-    
- //   }
- // });
+  
   
 });
