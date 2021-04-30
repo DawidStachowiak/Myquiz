@@ -1,0 +1,73 @@
+.form__input {
+    margin-left: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .form__label {
+    color: white;
+    display: inline;
+    margin-left: 5px;
+    max-width: 150px;
+    width: 100%;
+  }
+  
+  .form__label:hover {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .correctAnswer {
+    background-color: green;
+  }
+  
+  .form__fieldset {
+    margin-top: 20px;
+    border-radius: 3px;
+  }
+  
+  .form__fieldset:hover {
+    border-color: rgb(52, 226, 17);
+  }
+  
+  .form__fieldset--points {
+    border: 1px rgb(255, 165, 0) solid;
+    color: white;
+    font-size: 18px;
+  }
+  .form__legend {
+    background-color: rgb(104, 161, 218);
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  
+  .form__legend--points {
+    background-color: rgb(255, 69, 0);
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  
+  .form__goodAnswer {
+      background-color: rgb(0, 128, 0);
+      border-radius: 10px;
+    }
+
+    li {
+        list-style: none;
+      }
+
+      .form__paragraph {
+        font-size: 20px;
+        font-family: "Lato", sans-serif;
+        margin: 5px 0px 5px 0px;
+        color: rgb(255, 165, 0);
+      }
+
+      .points {
+        border: 2px dotted #33f;
+        margin-top: 20px;
+        padding: 30px;
+      }
+      

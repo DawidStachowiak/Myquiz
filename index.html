@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/form.css" />
+    <link rel="stylesheet" href="style/buttons.css" />
+    <script defer src="js/script.js"></script>
+
+    <title>JS QUIZ</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Quiz Html/Css/JS II Edycja YOUCODE</h1>
+      </header>
+
+      <form class="js-form">
+        <section class="questions">
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Pytanie 1</legend>
+            <p class="form__paragraph">
+              Najpopularniejszy język programowania w 2021 to?
+            </p>
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="1a"
+                  name="answer1"
+                  value="1"
+                  class="form__input js-good"
+                  required
+                />
+                <label for="1a" class="form__label">Java script</label>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="1b"
+                  name="answer1"
+                  value="0"
+                  class="form__input"
+                  required
+                />
+                <label for="1b" class="form__label">Python</label>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="1c"
+                  name="answer1"
+                  class="form__input"
+                  value="0"
+                  require
+                />
+                <label for="1c" class="form__label">Java</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Pytanie 2</legend>
+            <p class="form__paragraph">
+              Aby ustawić czcionkę Verdana w kodzie CSS, należy wykorzystać
+              właściwość:
+            </p>
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="2a"
+                  class="form__input"
+                  name="answer2"
+                  value="0"
+                  required
+                />
+                <label for="2a" class="form__label">font-name: Verdana;</label>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="2b"
+                  class="form__input"
+                  name="answer2"
+                  value="0"
+                  required
+                />
+                <label for="2b" class="form__label"
+                  >font-weight: Verdana;</label
+                >
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="2c"
+                  name="answer2"
+                  value="1"
+                  class="form__input js-good"
+                  required
+                />
+                <label for="2c" class="form__label"
+                  >font-family: Verdana;</label
+                >
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Pytanie 3</legend>
+            <p class="form__paragraph">Co oznacza skót WWW?</p>
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="3a"
+                  class="form__input"
+                  name="answer3"
+                  value="0"
+                  required
+                />
+                <label for="3a" class="form__label"
+                  >Wielka Wyszukiwarka Wiadomości</label
+                >
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="3b"
+                  class="form__input js-good"
+                  name="answer3"
+                  value="1"
+                  required
+                />
+                <label for="3b" class="form__label">Word Wide Web</label>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="3c"
+                  name="answer3"
+                  value="0"
+                  class="form__input"
+                  required
+                />
+                <label for="3c" class="form__label"
+                  >Wszystskie Waźne Wiadomości</label
+                >
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Pytanie 4</legend>
+            <p class="form__paragraph">
+              W którym z programów <strong>nie</strong> mozna tworzyć stron?
+            </p>
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="4a"
+                  class="form__input"
+                  name="answer4"
+                  value="0"
+                  required
+                />
+                <label for="4a" class="form__label">Pajączek</label>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="4b"
+                  class="form__input js-good"
+                  name="answer4"
+                  value="1"
+                  required
+                />
+                <label for="4b" class="form__label">Adobe Rader</label>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="4c"
+                  name="answer4"
+                  value="0"
+                  class="form__input"
+                  required
+                />
+                <label for="4c" class="form__label">Notepad ++</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Pytanie 5</legend>
+            <p class="form__paragraph">
+              Jakim znacznikiem rozpoczynamy tworzenie strony internetowej?
+            </p>
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="5a"
+                  class="form__input"
+                  name="answer5"
+                  value="0"
+                  required
+                />
+                <label for="5a" class="form__label"
+                  >&lt;head&gt;...&lt;/head&gt;</label
+                >
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="5b"
+                  class="form__input"
+                  name="answer5"
+                  value="0"
+                  required
+                />
+                <label for="5b" class="form__label"
+                  >&lt;div&gt;...&lt;/div&gt;</label
+                >
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="5c"
+                  name="answer5"
+                  value="1"
+                  class="form__input js-good"
+                  required
+                />
+                <label for="5c" class="form__label"
+                  >&lt;html&gt;...&lt;/html&gt;</label
+                >
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Pytanie 6</legend>
+
+            <p class="form__paragraph">
+              Jakiego znacznika musimy użyć aby wstawić grafikę?
+            </p>
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="6a"
+                  class="form__input js-good"
+                  name="answer6"
+                  value="1"
+                  required
+                />
+                <label for="6a" class="form__label"
+                  >&lt;img src="kot.jpg"&gt;</label
+                >
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="6b"
+                  class="form__input"
+                  name="answer6"
+                  value="0"
+                  required
+                />
+                <label for="6b" class="form__label"
+                  >&lt;image="kot.jpg"&gt;</label
+                >
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="6c"
+                  name="answer6"
+                  value="0"
+                  class="form__input"
+                  required
+                />
+                <label for="6c" class="form__label"
+                  >&lt;import img="kot.jpg"&gt;</label
+                >
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Pytanie 7</legend>
+            <p class="form__paragraph">
+              Który z wymienionych znaczników wstawiamy do części &lt;head&gt; w
+              HTML ?
+            </p>
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="7a"
+                  class="form__input"
+                  name="answer7"
+                  value="0"
+                  required
+                />
+                <label for="7a" class="form__label">&lt;img&gt;</label>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="7b"
+                  class="form__input js-good"
+                  name="answer7"
+                  value="1"
+                  required
+                />
+                <label for="7b" class="form__label">&lt;title&gt;</label>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="7c"
+                  name="answer7"
+                  value="0"
+                  class="form__input"
+                  required
+                />
+                <label for="7c" class="form__label">&lt;body&gt;</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Pytanie 8</legend>
+            <p class="form__paragraph">
+              W jaki sposób sformatować liczbę do 2 miejsc po przecinku w
+              JavaScript
+            </p>
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="8a"
+                  class="form__input js-good"
+                  name="answer8"
+                  value="1"
+                  required
+                />
+                <label for="8a" class="form__label">za pomocą toFixed(2)</label>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="8b"
+                  class="form__input"
+                  name="answer8"
+                  value="0"
+                  required
+                />
+                <label for="8b" class="form__label">toString</label>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="8c"
+                  name="answer8"
+                  value="0"
+                  class="form__input"
+                  required
+                />
+                <label for="8c" class="form__label">&lt;strong&gt;</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Pytanie 9</legend>
+            <p class="form__paragraph">
+              Skrypty osadzone umieszczamy wewnątrz kodu (X)HMTL za pomocą :
+            </p>
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="9a"
+                  class="form__input js-good"
+                  name="answer9"
+                  value="1"
+                  required
+                />
+                <label for="9a" class="form__label"
+                  >&lt;script type="typ"&gt;...&lt;/script&gt;</label
+                >
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="9b"
+                  class="form__input"
+                  name="answer9"
+                  value="0"
+                  required
+                />
+                <label for="9b" class="form__label"
+                  >&lt;skrypt type="typ"&gt;&lt;/skrypt&gt;</label
+                >
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="9c"
+                  name="answer9"
+                  value="0"
+                  class="form__input"
+                  required
+                />
+                <label for="9c" class="form__label">&lt;strong&gt;</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Pytanie 10</legend>
+            <p class="form__paragraph">
+              Komentarz wierszowy (liniowy) obowiązujacy do końca linii skryptu
+              to:
+            </p>
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="10a"
+                  class="form__input"
+                  name="answer10"
+                  value="0"
+                  required
+                />
+                <label for="10a" class="form__label">////</label>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="10b"
+                  class="form__input"
+                  name="answer10"
+                  value="0"
+                  required
+                />
+                <label for="10b" class="form__label">/*..*/</label>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="10c"
+                  name="answer10"
+                  value="1"
+                  class="form__input js-good"
+                  required
+                />
+                <label for="10c" class="form__label">//...</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__fieldset form__fieldset--points">
+            <legend class="form__Legend form__legend--points">
+              Twój wynik
+            </legend>
+            <p class="points__paragraph js-points__paragraph">Wynik:</p>
+            <p class="js-level">Poziom:</p>
+          </fieldset>
+        </section>
+
+        <button type="submit" class="submit__button">Sprawdź odpowiedź</button>
+        <button type="reset" class="reset__button">Wyczyść</button>
+        <button type="" class="check__button js-check__button">
+          Pokaż odpowiedzi
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

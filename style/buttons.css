@@ -1,0 +1,72 @@
+.summary__button {
+    padding: 10px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 2px;
+    border: none;
+    margin-top: 10px;
+  
+    display: block;
+  }
+  
+  .summary__button:hover {
+    padding: 10px;
+    color: rgb(243, 225, 225);
+    background-color: rgb(15, 128, 241);
+    border-radius: 2px;
+    border: none;
+  }
+  
+  .check__button {
+    padding: 10px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 2px;
+    border: none;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .check__button:hover {
+    padding: 10px;
+    color: rgb(243, 225, 225);
+    background-color: rgb(15, 128, 241);
+    border-radius: 2px;
+    border: none;
+  }
+  
+  .submit__button {
+      padding: 10px;
+      color: white;
+      background-color: dodgerblue;
+      border-radius: 2px;
+      border: none;
+      display: block;
+      margin-top: 10px;
+    }
+    
+    .submit__button:hover {
+      padding: 10px;
+      color: rgb(243, 225, 225);
+      background-color: rgb(15, 128, 241);
+      border-radius: 2px;
+      border: none;
+    }
+  
+    .reset__button {
+      padding: 10px;
+      color: white;
+      background-color: dodgerblue;
+      border-radius: 2px;
+      border: none;
+      display: block;
+      margin-top: 10px;
+    }
+    
+    .reset__button:hover {
+      padding: 10px;
+      color: rgb(243, 225, 225);
+      background-color: rgb(15, 128, 241);
+      border-radius: 2px;
+      border: none;
+    }
