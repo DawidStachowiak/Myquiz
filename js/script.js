@@ -10,7 +10,7 @@ quizForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
   let points = 0;
-  let youskill;
+  let yourLevel;
 
   const ansvers = document.querySelectorAll("input:checked");
   ansvers.forEach((item) => {
@@ -23,14 +23,15 @@ quizForm.addEventListener("submit", (event) => {
     case 10:
     case 9:
       youskill = "High";
-      level.innerText = `Twój poziom : ${youskill}.  Gratulacje!`;
+  let yourLevel;
+  level.innerText = `Twój poziom : ${yourLevel}.  Gratulacje!`;
       break;
 
     case 8:
     case 7:
     case 6:
       youskill = "Medium";
-      level.innerText = `Twój poziom : ${youskill}. Musisz trochę popracować`;
+      level.innerText = `Twój poziom : ${yourLevel}. Musisz trochę popracować`;
       break;
 
     case 5:
@@ -40,7 +41,7 @@ quizForm.addEventListener("submit", (event) => {
     case 1:
       youskill = "Low";
 
-      level.innerText = `Twój poziom : ${youskill}. Nie załamuj się w YOUCODE nie zginiesz!`;
+      level.innerText = `Twój poziom : ${yourLevel}. Nie załamuj się w YOUCODE nie zginiesz!`;
       break;
   }
   quizForm.addEventListener("reset", () => {
