@@ -22,15 +22,14 @@ quizForm.addEventListener("submit", (event) => {
   switch (points) {
     case 10:
     case 9:
-      youskill = "High";
-  let yourLevel;
-  level.innerText = `Twój poziom : ${yourLevel}.  Gratulacje!`;
+      yourLevel = "High";
+      level.innerText = `Twój poziom : ${yourLevel}.  Gratulacje!`;
       break;
 
     case 8:
     case 7:
     case 6:
-      youskill = "Medium";
+      yourLevel = "Medium";
       level.innerText = `Twój poziom : ${yourLevel}. Musisz trochę popracować`;
       break;
 
@@ -39,7 +38,7 @@ quizForm.addEventListener("submit", (event) => {
     case 3:
     case 2:
     case 1:
-      youskill = "Low";
+      yourLevel = "Low";
 
       level.innerText = `Twój poziom : ${yourLevel}. Nie załamuj się w YOUCODE nie zginiesz!`;
       break;
