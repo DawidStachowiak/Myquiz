@@ -8,29 +8,35 @@ let correctAnswers = document.querySelector(".js-good");
 
 quizForm.addEventListener("submit", (event) => {
   event.preventDefault();
+  
+  let suma = 0;
+  
+  
+  if(document.querySelector('input[name="answer1"]:checked').value == 1) {suma += 1;}
+  if(document.querySelector('input[name="answer2"]:checked').value == 3) {suma += 1;}
+  if(document.querySelector('input[name="answer3"]:checked').value == 2) {suma += 1;}
+  if(document.querySelector('input[name="answer4"]:checked').value == 2) {suma += 1;}
+  if(document.querySelector('input[name="answer5"]:checked').value == 3) {suma += 1;}
+  if(document.querySelector('input[name="answer6"]:checked').value == 1) {suma += 1;}
+  if(document.querySelector('input[name="answer7"]:checked').value == 2) {suma += 1;}
+  if(document.querySelector('input[name="answer8"]:checked').value == 1) {suma += 1;}
+  if(document.querySelector('input[name="answer9"]:checked').value == 1) {suma += 1;}
+  if(document.querySelector('input[name="answer10"]:checked').value == 3) {suma += 1;}
 
-  let points = 0;
-  let yourLevel;
+  pointSum.innerText = `Wynik: ${suma} pkt`;
 
-  const ansvers = document.querySelectorAll("input:checked");
-  ansvers.forEach((item) => {
-    points += parseInt(item.value);
-  });
-
-  pointSum.innerText = `Wynik: ${points} pkt`;
-
-  switch (points) {
+  switch (suma) {
     case 10:
     case 9:
-      yourLevel = "High";
-      level.innerText = `Twój poziom : ${yourLevel}.  Gratulacje!`;
+      Level = "High";
+      level.innerText = `Twój poziom : ${Level}.  Gratulacje!`;
       break;
 
     case 8:
     case 7:
     case 6:
-      yourLevel = "Medium";
-      level.innerText = `Twój poziom : ${yourLevel}. Musisz trochę popracować`;
+      Level = "Medium";
+      level.innerText = `Twój poziom : ${Level}. Musisz trochę popracować`;
       break;
 
     case 5:
@@ -38,9 +44,9 @@ quizForm.addEventListener("submit", (event) => {
     case 3:
     case 2:
     case 1:
-      yourLevel = "Low";
+      Level = "Low";
 
-      level.innerText = `Twój poziom : ${yourLevel}. Nie załamuj się w YOUCODE nie zginiesz!`;
+      level.innerText = `Twój poziom : ${Level}. Nie załamuj się w YOUCODE nie zginiesz!`;
       break;
   }
   quizForm.addEventListener("reset", () => {
